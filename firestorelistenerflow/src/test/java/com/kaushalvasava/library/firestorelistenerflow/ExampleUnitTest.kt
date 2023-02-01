@@ -1,4 +1,4 @@
-package com.kaushalvasava.apps.firestorelistenerflow
+package com.kaushalvasava.library.firestorelistenerflow
 
 import org.junit.Test
 

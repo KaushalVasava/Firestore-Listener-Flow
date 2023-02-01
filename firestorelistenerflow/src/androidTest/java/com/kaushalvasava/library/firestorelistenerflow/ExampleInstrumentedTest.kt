@@ -1,4 +1,4 @@
-package com.kaushalvasava.apps.firestorelistenerflow
+package com.kaushalvasava.library.firestorelistenerflow
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

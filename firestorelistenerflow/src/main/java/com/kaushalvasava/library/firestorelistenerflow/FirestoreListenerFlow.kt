@@ -16,7 +16,7 @@
 
 @file:Suppress("unused")
 
-package com.kaushalvasava.apps.firestorelistenerflow
+package com.kaushalvasava.library.firestorelistenerflow
 
 import android.util.Log
 import com.google.firebase.firestore.*
