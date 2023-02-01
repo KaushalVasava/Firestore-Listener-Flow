@@ -1,5 +1,8 @@
 # Firestore-Listener-Flow
 
+It is a library for simplify firestore listener callbacks to kotlin flow and suspend function to easily manage and use callbacks.
+
+
 $CurrentVersion = V1.0.0
 
 Step 1. Add the JitPack repository to your build file
