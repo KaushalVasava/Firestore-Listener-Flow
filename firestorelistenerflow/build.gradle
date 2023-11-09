@@ -43,13 +43,15 @@ dependencies {
 }
 
 afterEvaluate{
-    android.libraryVariants.each{ variant ->
-        publishing.publications.create(variant.name, MavenPublication){
-            from components.findByName(variant.name)
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
 
-            groupId = "com.kaushalvasava.apps"
-            artifactId = "firestore-listener-flow"
-            version = "v1.0.0"
+                groupId = "com.github.kaushalvasava"
+                artifactId = "firestore-listener-flow"
+                version = "1.0"
+            }
         }
     }
 }
