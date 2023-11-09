@@ -24,6 +24,7 @@ dependencies {
 ```
 
 # Demo Example
+You can use now toValueFlow<Cart> instead of addOnSnapshotListener.
 ```
   val cartFlow: Flow<BaseState<Cart>> = 
         Firebase.firestore.collection("users").document(userId)
