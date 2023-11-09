@@ -1,8 +1,8 @@
 # Firestore-Listener-Flow
 
-It is a library for simplify firestore listener callbacks to kotlin flow and suspend function to easily manage and use callbacks.
+It is a library for simplifying Firestore listener callbacks to Kotlin flow and suspend function to easily manage and use callbacks.
 
-Firebase callbacks like addSnapshotListener, addOnCompleteListener are simplified using Flows so you can easily write clean code.
+Firebase callbacks like addSnapshotListener and addOnCompleteListener are simplified using Flows so you can easily write clean code. 
 
 # Steps
 1. Add the JitPack repository to your build file
