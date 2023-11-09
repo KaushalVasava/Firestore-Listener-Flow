@@ -48,11 +48,6 @@ You can use now toValueFlow<Cart> instead of addOnSnapshotListener.
 - Kotlin 1.9.20 
 - Gradle 8.1
 
-# Usage and Platform
-- Android
-- Kotlin Multi-Platform
-- Kotlin Backend
-
 # Licence
 Copyright 2023 Kaushal Vasava
 
